@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: "iconfont";
+    src: url("iconfont.ttf?t=1724573733377") format("truetype"),
+		url("iconfont.woff?t=1724573733377") format("woff"),
+		url("iconfont.woff2?t=1724573733377") format("woff2");
+}
+
+.iconfont {
+					font-family: "iconfont" !important; // 默认
+					font-style: normal; // 默认
+					-webkit-font-smoothing: antialiased; // 默认
+					-moz-osx-font-smoothing: grayscale; // 默认
+					font-size: 1em; // ------> 自定义样式
+				}
+
+.shengdanwancan789::before {
+	content: "\E001";
+}
+
+.shengdanqiu::before {
+	content: "\E002";
+}
+
+.shengdanmao::before {
+	content: "\E003";
+}
+
+.shengdanliwu::before {
+	content: "\E004";
+}
+
+.shengdanlihe::before {
+	content: "\E005";
+}
+
+.shengdanguo::before {
+	content: "\E006";
+}
+
+.shengdanguaizhang::before {
+	content: "\E007";
+}
+
+.shengdanbingq222ilin::before {
+	content: "\E008";
+}

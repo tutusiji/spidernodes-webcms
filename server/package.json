@@ -1,0 +1,44 @@
+{
+  "name": "spider-server",
+  "version": "1.0.1",
+  "description": "spider server by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "serve2": "nodemon sqlite_index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ../staging/deploy.js"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "spider"
+  ],
+  "author": "tutu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "express": "^5.0.1",
+    "fontmin": "^1.0.1",
+    "gulp-rename": "^2.0.0",
+    "http-assert": "^1.5.0",
+    "iconv-lite": "^0.6.3",
+    "inflection": "^3.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.1.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-aliyun-oss": "^2.1.1",
+    "nodemon": "^2.0.22",
+    "openai": "^4.24.7",
+    "puppeteer": "^23.8.0",
+    "request": "^2.88.2",
+    "require-all": "^3.0.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
